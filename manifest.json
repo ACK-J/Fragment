@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
 "name": "Caido Fragment",
-"version": "1.0",
+"version": "1.1",
 "description": "Sends client-side frament paths to (original domain + .local) captured by Caido or Burp",
 "permissions": [
 "webRequest",
