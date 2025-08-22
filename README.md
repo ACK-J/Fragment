@@ -12,6 +12,9 @@ After installing the browser extension open up Caido and add `*.local` to your s
 
 Browse the application normally and observe that fragments are now logged in your sitemap.
 
+<img width="883" height="340" alt="image" src="https://github.com/user-attachments/assets/0a5aaa92-95e1-4da7-8860-092feb8be17f" />
+
+
 ## Donations 
 - Monero Address: `89jYJvX3CaFNv1T6mhg69wK5dMQJSF3aG2AYRNU1ZSo6WbccGtJN7TNMAf39vrmKNR6zXUKxJVABggR4a8cZDGST11Q4yS8`
 
