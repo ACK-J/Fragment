@@ -4,7 +4,7 @@
 ![Mozilla Add-on Stars](https://img.shields.io/amo/stars/caido-fragment)
 ![Mozilla Add-on Version](https://img.shields.io/amo/v/caido-fragment)
 
-Testing single-page applications is a pain. This addon sends client-side frament (#) paths to (original domain + `.local`) captured by Caido or Burp. Adding a `.local` TLD ensures the request fails, doesn't interfer with normal browsing, and gets logged within the sitemap. 
+Testing single-page applications is a pain. This browser extension sends client-side frament (#) paths to (original domain + `.local`) captured by Caido or Burp. Adding a `.local` TLD ensures the request fails, doesn't interfer with normal browsing, and gets logged within the sitemap. 
 # Setup
 After installing the browser extension open up Caido and add `*.local` to your scope, as shown below.
 
