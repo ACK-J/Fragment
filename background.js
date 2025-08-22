@@ -4,7 +4,7 @@ chrome.runtime.onMessage.addListener((message, sender) => {
     const fragment = url.hash.substring(1);
     if (fragment) {  // Only send if there's a fragment
       url.protocol = 'http:';  // Force HTTP 
-      url.host = url.host + '.local';
+      url.host = url.hostname + '.local';
       url.pathname = url.pathname + '#' + fragment;
       url.hash = '';  // Remove hash
       //url.searchParams.set('caidohash', fragment); 
@@ -15,3 +15,4 @@ chrome.runtime.onMessage.addListener((message, sender) => {
     }
   }
 });
+
