@@ -1,0 +1,23 @@
+{
+"manifest_version": 2,
+"name": "Caido Fragment",
+"version": "1.0",
+"description": "Sends client-side frament paths to (original domain + .local) captured by Caido or Burp",
+"permissions": [
+"webRequest",
+"webRequestBlocking",
+"storage",
+"<all_urls>"
+],
+"background": {
+"scripts": ["background.js"],
+"persistent": true
+},
+"content_scripts": [
+{
+"matches": ["<all_urls>"],
+"js": ["content.js"],
+"run_at": "document_start"
+}
+]
+}
